@@ -24,7 +24,7 @@ namespace tpmod6_1302213002
             playCount = 0;
         }
 
-        public void IncreasePlayCount(int count)
+        public void IncreasePlayCount_1302213002(int count)
         {
             Contract.Requires(count <= 10000000);
             try
@@ -40,7 +40,7 @@ namespace tpmod6_1302213002
             }
         }
 
-        public void PrintVideoDetails()
+        public void PrintVideoDetails_1302213002()
         {
             Console.WriteLine("Video ID : {0} ", id);
             Console.WriteLine("Title : {0} ", title);
